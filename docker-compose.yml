@@ -1,0 +1,7 @@
+version: '3'
+services:
+  app:
+    image: akiray03/stretch-ffmepg-and-gcloud
+    command: bash
+    volumes:
+      - .:/app
