@@ -17,3 +17,5 @@ RUN set -ex \
     && curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add - \
     && apt-get update -y \
     && apt-get install google-cloud-sdk -y
+
+RUN pip install google-cloud-speech
